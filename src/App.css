@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Karla,sans-serif;
+    background-color: rgb(238, 236, 234);
+
+}
+
+main>h3{
+    text-align: center;
+    font-size: 16px;
+}
+
+.meme-header{
+    display: flex;
+    background-image: linear-gradient(#672280, #A626D3);
+    height: 60px;
+    align-items: center;
+    
+}
+
+.meme-header>h1{
+    letter-spacing: -1px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.meme-logo{
+    width: 50px;
+    height: auto;
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+main{
+    padding: 20px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.form-input{
+    height: 35px;
+    width: auto;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+
+}
+
+.form-button{
+    height: 40px;
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 5px;
+    word-spacing: 1px;
+
+}
+
+.form-button:hover{
+    opacity: 0.9;
+}
+
+.meme-img{
+    max-width: 40%;
+    height: auto;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
