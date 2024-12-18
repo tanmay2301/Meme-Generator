@@ -6,7 +6,7 @@ A fun and simple Meme Generator app built with React. This app allows users to g
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [File Structure](#file-structure)
+- [Working Images](#project-visuals)
 
 
 ## Project Overview
@@ -27,21 +27,8 @@ The Meme Generator app allows you to:
 - **HTML/CSS**: Structure and style of the web app.
 - **Imgflip API**: Used to fetch meme images for generating memes.
 
-## File Structure
+##project-visuals
 
-Meme-Generator/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── assets/
-│   │   └── Troll Face.png
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── Meme.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
-
+![image](https://github.com/user-attachments/assets/5ee8ff10-8969-401d-a36e-3321b4df5b6e)
+![image](https://github.com/user-attachments/assets/43574f01-3f26-4acf-9771-6bf9421681af)
 
