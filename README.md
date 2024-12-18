@@ -29,7 +29,7 @@ The Meme Generator app allows you to:
 
 ## Project-visuals
 
-# Video Link: https://github.com/user-attachments/assets/4e6e3791-ce77-44af-8b2f-27fa3d2ce815
+### Video Link: https://github.com/user-attachments/assets/4e6e3791-ce77-44af-8b2f-27fa3d2ce815
 ![image](https://github.com/user-attachments/assets/5ee8ff10-8969-401d-a36e-3321b4df5b6e)
 ![image](https://github.com/user-attachments/assets/43574f01-3f26-4acf-9771-6bf9421681af)
 
